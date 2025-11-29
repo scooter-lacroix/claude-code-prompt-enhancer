@@ -1,0 +1,166 @@
+MODERN TOOL PREFERENCES & RECOMMENDATIONS
+
+MODERN TOOL PREFERENCES:
+
+Cutting-edge tools that enhance productivity and code quality:
+
+PYTHON ECOSYSTEM:
+- Package Management: uv (faster pip replacement)
+- Type Checking: pyright (Microsoft's fast type checker)
+- Linting: ruff (extremely fast Python linter)
+- Formatting: black (opinionated formatter)
+- Testing: pytest with pytest-cov and pytest-mock
+- Documentation: mkdocs or sphinx with autodoc
+- Virtual Environments: uv venv (superior alternatives)
+
+JavaScript/TypeScript:
+- Package Management: npm with pnpm or yarn berry
+- Type Checking: TypeScript compiler (strict mode)
+- Linting: ESLint with comprehensive rules
+- Formatting: Prettier (opinionated formatting)
+- Testing: Jest with React Testing Library
+- Bundling: Vite or Next.js built-in bundler
+- Code Quality: SonarCloud integration
+
+SEARCH & GREP TOOLS:
+- Primary: ripgrep (rg) - extremely fast, supports regex
+- Alternative: ag (the silver searcher) for case-sensitive searches
+- File System: fd (fast alternative to find)
+- Git Search: git grep for version control-specific searches
+- Content Search: rg --type js for file-type specific searches
+
+VERSION CONTROL & GIT:
+- Repository Management: GitHub, GitLab, or Bitbucket
+- Branch Strategy: GitFlow or GitHub Flow
+- Commit Messages: Conventional Commits format
+- Code Review: GitHub Pull Requests with required reviews
+- Branch Protection: Require PRs, status checks, and branch restrictions
+- Commit Signing: GPG signatures for security
+- Git Hooks: pre-commit and pre-push hooks for quality gates
+
+CI/CD PIPELINES:
+- Primary: GitHub Actions (excellent GitHub integration)
+- Alternative: GitLab CI for self-hosted solutions
+- Container Registry: GitHub Container Registry or Docker Hub
+- Deployment: ArgoCD for GitOps workflows
+- Monitoring: Prometheus with Grafana dashboards
+- Infrastructure as Code: Terraform or Pulumi
+
+DEVELOPMENT ENVIRONMENTS:
+- IDE: VS Code with Python extensions or PyCharm Professional
+- Terminal: iTerm2 (macOS) or Windows Terminal
+- Shell: Zsh with Oh My Zsh or Fish shell
+- Package Manager: Homebrew (macOS) or Chocolatey (Windows)
+- Container: Docker with multi-stage builds
+- Cloud IDE: GitHub Codespaces for cloud development
+
+PYTHON-SPECIFIC TOOLS:
+
+DEVELOPMENT WORKFLOW:
+- Code Quality: mypy (type hints), black (formatting), ruff (linting)
+- Testing: pytest with pytest-cov, hypothesis (property-based testing)
+- Documentation: sphinx with autodoc, mkdocs-material
+- Database: alembic (migrations), sqlalchemy (ORM)
+- Async: asyncio, httpx (HTTP), celery (background tasks)
+- Web: FastAPI (async framework), django (full-stack)
+
+DEVOPS & DEPLOYMENT:
+- Containerization: Docker with Python official images
+- Orchestration: Kubernetes for scaling
+- Monitoring: sentry (error tracking), datadog (APM)
+- Infrastructure: ansible (configuration management)
+- Logging: structlog, loguru
+- Performance: yappi, cProfile
+
+{{project_specific_tools}}
+
+PROJECT-SPECIFIC TOOL RECOMMENDATIONS:
+
+WEB APPLICATIONS:
+- Frontend: React with Next.js, Tailwind CSS
+- Backend: FastAPI, Django REST Framework
+- Database: PostgreSQL with asyncpg or django ORM
+- Authentication: Auth0, Supabase Auth, or custom OAuth
+- API Documentation: Swagger/OpenAPI with FastAPI integration
+- Real-time: WebSockets with Socket.IO or FastAPI WebSockets
+
+DATA SCIENCE & MACHINE LEARNING:
+- Data Analysis: pandas, numpy, jupyterlab
+- Visualization: matplotlib, seaborn, plotly
+- ML Frameworks: scikit-learn, tensorflow, pytorch
+- MLOps: mlflow, weights & biases
+- Data Pipeline: apache-airflow, prefect
+- Feature Store: feast or custom solution
+
+MOBILE DEVELOPMENT:
+- Cross-platform: React Native, Flutter
+- Native: Swift (iOS), Kotlin (Android)
+- Backend: Firebase, Supabase, or custom REST API
+- Storage: SQLite for local, cloud sync via Firebase
+- Authentication: Firebase Auth or custom OAuth
+
+DEVOPS & INFRASTRUCTURE:
+- Infrastructure as Code: terraform, pulumi
+- Configuration Management: ansible, saltstack
+- Container Orchestration: kubernetes, docker swarm
+- Monitoring: prometheus, grafana, datadog
+- Logging: elasticsearch, kibana, fluentd
+- CI/CD: github actions, gitlab ci, jenkins
+
+RATIONALE FOR TOOL CHOICES:
+
+PERFORMANCE & SPEED:
+- uv is 10-100x faster than pip for package operations
+- ruff replaces multiple tools (flake8, isort, pyupgrade) with same speed
+- ripgrep processes directories faster than grep with similar functionality
+- Black provides consistent formatting without configuration overhead
+
+QUALITY & RELIABILITY:
+- mypy prevents runtime type errors through compile-time checking
+- pytest provides comprehensive testing framework with fixtures and parametrization
+- pre-commit hooks catch issues before code is committed
+- ruff enforces code consistency and best practices automatically
+
+MODERNIZATION & FORWARD COMPATIBILITY:
+- uv supports lock files and reproducible builds
+- FastAPI provides async support automatic OpenAPI documentation
+- TypeScript provides compile-time safety for JavaScript
+- Docker ensures consistent environments across development and production
+
+ECOSYSTEM INTEGRATION:
+- GitHub Actions provides seamless integration with GitHub repositories
+- VS Code extensions provide excellent Python development experience
+- GitHub Packages enables private package hosting
+- GitHub Copilot AI assistance for code generation and completion
+
+MAINTAINABILITY & SCALABILITY:
+- Type checking with mypy catches bugs early in development
+- Automated testing with pytest ensures code quality over time
+- Docker containers provide consistent environments at scale
+- Infrastructure as Code with terraform enables reproducible deployments
+
+COST EFFECTIVENESS:
+- uv reduces dependency resolution time and resource usage
+- GitHub free tier provides excellent CI/CD capabilities for open source
+- Docker reduces infrastructure costs through container efficiency
+- Open source tools eliminate licensing costs while providing enterprise features
+
+ADOPTION & COMMUNITY SUPPORT:
+- Large communities ensure abundant resources and support
+- Active development ensures ongoing improvements and security updates
+- Industry standard adoption ensures team familiarity and onboarding ease
+- Integration with existing toolchains minimizes disruption
+
+TOOL VERSION MANAGEMENT:
+- Python: Use pyenv for multiple Python versions
+- Node.js: Use nvm for version management
+- Docker: Use specific version tags for reproducibility
+- Tools: Use pip-tools or uv for dependency pinning
+- System: Keep development tools updated but stable
+
+CONFIGURATION MANAGEMENT:
+- Tools: Use .toml, .yaml, or .json for configuration
+- Version control: Include .tool-versions and .python-version
+- Secrets: Use environment variables or secure secret management
+- IDE settings: Include .vscode/settings.json for team consistency
+- Pre-commit: Configure .pre-commit-config.yaml for quality gates

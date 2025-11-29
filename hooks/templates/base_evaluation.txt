@@ -1,0 +1,30 @@
+# Prompt Evaluation & Enrichment
+
+## Original Request
+**{{escaped_prompt}}**
+
+{{enrichment_layers}}
+
+---
+
+## 📋 Evaluation Strategy
+
+### ✅ PROCEED IMMEDIATELY if:
+- **Detailed/specific** OR sufficient context exists OR intent is clear
+- **You can deliver excellent results without clarification**
+
+### 🚨 Critical Rules:
+- **Trust user intent by default**
+- **Check conversation history FIRST**
+- **Never skip Phase 1 research**
+- **Don't announce evaluation unless asking questions**
+
+---
+
+## 🔍 Phase 1 - Research (MANDATORY)
+{{research_guidance}}
+
+## ❓ Phase 2 - Ask (ONLY IF NEEDED AFTER RESEARCH)
+{{question_guidance}}
+
+{{confidence_hints}}

@@ -1,0 +1,115 @@
+DESIGN GUIDANCE PRINCIPLES
+Task Type: {{task_type}}
+
+ARCHITECTURAL PRINCIPLES:
+
+For {{task_type}} tasks, apply these foundational principles:
+
+SEPARATION OF CONCERNS:
+- Isolate core logic, I/O operations, and user interface concerns
+- Use clean abstractions between business logic and technical implementation
+- Apply Single Responsibility Principle to modules and functions
+
+MODULARITY & COMPOSABILITY:
+- Design small, focused modules with clear interfaces
+- Favor composition over inheritance where appropriate
+- Create reusable components that solve specific problems
+- Design for testability with dependency injection patterns
+
+SCALABILITY CONSIDERATIONS:
+- Anticipate growth in data volume, user base, or complexity
+- Design horizontal scaling capabilities from the start
+- Implement proper resource management and cleanup
+- Consider microservice boundaries for large-scale applications
+
+PERFORMANCE OPTIMIZATION:
+- Profile before optimizing, focus on algorithmic efficiency
+- Implement lazy loading and caching strategies
+- Optimize database queries and I/O operations
+- Consider async patterns for I/O-bound operations
+
+SECURITY BY DESIGN:
+- Implement authentication and authorization at architectural boundaries
+- Validate all inputs at application boundaries
+- Use principle of least privilege for all components
+- Consider data encryption at rest and in transit
+
+RECOMMENDED PATTERNS:
+
+For {{task_type}} tasks, consider these architectural patterns:
+
+BUG FIX PATTERNS:
+- Use defensive programming with proper error handling
+- Implement logging and monitoring for visibility
+- Create reproducible test cases to validate fixes
+- Consider immutable data structures to prevent side effects
+
+FEATURE DEVELOPMENT PATTERNS:
+- Apply Domain-Driven Design for complex business logic
+- Use MVC or MVVM for presentation-heavy features
+- Implement feature flags for gradual rollout
+- Design with extensibility for future enhancements
+
+REFACTORING PATTERNS:
+- Apply SOLID principles systematically
+- Use dependency injection for testability
+- Implement interface segregation for loose coupling
+- Consider command pattern for complex operations
+
+TESTING PATTERNS:
+- Test-driven development with red-green-refactor cycle
+- Create comprehensive unit, integration, and contract tests
+- Use mocking for external dependencies
+- Implement property-based testing for edge cases
+
+DOCUMENTATION PATTERNS:
+- Generate API documentation from code
+- Use architectural decision records for important choices
+- Create comprehensive README files for modules
+- Implement inline documentation for complex logic
+
+TECHNOLOGY PREFERENCES:
+
+Programming Languages:
+- Python: Latest stable version with strong typing hints
+- TypeScript: 4.9+ with strict type checking
+- Rust: Performance-critical components
+- Go: Microservices and concurrent systems
+
+FRAMEWORKS & LIBRARIES:
+- Web: FastAPI (Python), Next.js (React), SvelteKit
+- Data: Pandas, NumPy, SQLAlchemy, PostgreSQL
+- Testing: Pytest, Jest, Playwright, Hypothesis
+- DevOps: Docker, Kubernetes, GitHub Actions
+
+INFRASTRUCTURE:
+- Cloud: AWS, Google Cloud, or Azure based on requirements
+- Containers: Docker with multi-stage builds
+- CI/CD: GitHub Actions or GitLab CI
+- Monitoring: Prometheus, Grafana, Datadog
+
+QUALITY STANDARDS:
+
+CODE QUALITY METRICS:
+- Maintain test coverage above 80%
+- Code complexity under 10 lines per function
+- No security vulnerabilities in static analysis
+- Document all public APIs and complex operations
+
+PERFORMANCE BENCHMARKS:
+- Response times under 100ms for web endpoints
+- Database query optimization with proper indexing
+- Memory usage monitoring and optimization
+- Load testing for expected traffic volumes
+
+RELIABILITY STANDARDS:
+- Error handling for all expected failure scenarios
+- Circuit breakers for external service calls
+- Retry policies with exponential backoff
+- Comprehensive logging and tracing
+
+MAINTAINABILITY CRITERIA:
+- Automated code formatting and linting
+- Comprehensive test suite with integration tests
+- Clear separation of concerns and modular design
+- Documentation that stays current with code changes

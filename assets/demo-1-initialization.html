@@ -1,0 +1,44 @@
+<div class="terminal-demo" style="background: #000; border: 2px solid #333; border-radius: 8px; overflow: hidden; max-width: 600px; margin: 20px 0;">
+  <div class="terminal-header" style="background: #2d2d2d; padding: 8px 12px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #444;">
+    <div style="width: 12px; height: 12px; background: #ff5f56; border-radius: 50%;"></div>
+    <div style="width: 12px; height: 12px; background: #ffbd2e; border-radius: 50%;"></div>
+    <div style="width: 12px; height: 12px; background: #27c93f; border-radius: 50%;"></div>
+    <span style="margin-left: 8px; color: #999; font-family: monospace; font-size: 12px;">claude-enhancer-monitor</span>
+  </div>
+  <div class="terminal-body" style="padding: 16px; font-family: 'Courier New', monospace; font-size: 14px; color: #e0e0e0; line-height: 1.4;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+      <span style="color: #ffffff;">&gt; INITIALIZING PROMPT ENHANCER...</span>
+      <span style="color: #27c93f;">[OK]</span>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+      <span style="color: #ffffff;">&gt; LOADING TEMPLATES (12 ACTIVE)...</span>
+      <span style="color: #27c93f;">[OK]</span>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+      <span style="color: #ffffff;">&gt; CONNECTING TO CLAUDE CODE HOOKS...</span>
+      <span style="color: #27c93f;">[OK]</span>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+      <span style="color: #ffffff;">&gt; INITIALIZING LEARNING SYSTEM...</span>
+      <span style="color: #ffbd2e; animation: pulse 1s infinite;">[WAIT]</span>
+    </div>
+    <div style="padding-left: 24px; color: #999; margin-bottom: 8px;">
+      <div>&gt; Loading conversation patterns...</div>
+      <div>&gt; Optimizing enhancement algorithms...</div>
+    </div>
+    <div style="display: flex; justify-content: space-between;">
+      <span style="color: #ffffff;">&gt; SYSTEM READY. ENHANCING PROMPTS.</span>
+      <span style="animation: blink 1s infinite;">_</span>
+    </div>
+  </div>
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
+</div>
