@@ -48,13 +48,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-See the complete ultra-mode enhancement process in real-time:
-
-**📹 Watch Ultra Mode Demo Videos**
-
-[▶️ Play WebM Version (Recommended - 116KB)](assets/ultra-mode-enhancer.webm) | [▶️ Play MP4 Version (644KB)](assets/ultra-mode-enhancer.mp4)
-
-*Click either link above to watch the Ultra Mode enhancement process in action.*
+![Ultra Mode Enhancement](assets/ultra-mode-enhancer.gif)
 
 </div>
 
