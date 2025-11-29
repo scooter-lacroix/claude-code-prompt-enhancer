@@ -16,27 +16,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ 🟥 🟨 🟩  claude-enhancer-monitor.exe                                        │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ > INITIALIZING MAESTRO...                                              [OK]  │
-│                                                                              │
-│ > LOADING ENHANCEMENT TEMPLATES...                                     [OK]  │
-│   └─► 12 active templates loaded                                          │
-│                                                                              │
-│ > CONNECTING TO CLAUDE CODE HOOKS...                                    [OK]  │
-│   └─► Hook integration verified                                           │
-│                                                                              │
-│ > INITIALIZING LEARNING SYSTEM...                                     [⏳]   │
-│   └─► Loading conversation patterns...                                     │
-│   └─► Optimizing enhancement algorithms...                                 │
-│                                                                              │
-│ > SYSTEM READY. ENHANCING PROMPTS.                                     [✓]   │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+![System Initialization Demo](assets/claude-enhancer-monitor.png)
 
 </div>
 
@@ -44,42 +24,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ 🟥 🟨 🟩  claude-enhancer.exe                                                │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ > echo "Refactor this authentication system" | claude enhance               │
-│                                                                              │
-│ [INPUT] Analyzing prompt complexity...                                 [MEDIUM] │
-│ [✓] DETECTED KEYWORD: "refactor", "authentication"                          │
-│ [✓] SELECTING TEMPLATE: security-enhancement-v3                              │
-│ [⚡] ENHANCING PROMPT...                                                     │
-│                                                                              │
-│   Original: "Refactor this authentication system"                           │
-│                                                                              │
-│   Enhanced:                                                                  │
-│   ┌─────────────────────────────────────────────────────────────────────────┐ │
-│   │ Refactor this authentication system                                    │ │
-│   │                                                                        │ │
-│   │ 🔒 Security Requirements:                                              │ │
-│   │   • Review current authentication flow                                  │ │
-│   │   • Identify potential security vulnerabilities                         │ │
-│   │   • Implement secure session management                                 │ │
-│   │   • Add multi-factor authentication support                            │ │
-│   │   • Ensure compliance with OWASP guidelines                            │ │
-│   │                                                                        │ │
-│   │ ⚡ Performance Considerations:                                          │ │
-│   │   • Minimize authentication latency                                     │ │
-│   │   • Optimize database queries for user validation                       │ │
-│   │   • Implement efficient caching strategies                             │ │
-│   │   • Plan for scalable authentication architecture                      │ │
-│   └─────────────────────────────────────────────────────────────────────────┘ │
-│                                                                              │
-│ [✓] ENHANCEMENT COMPLETE. Ready for Claude processing.                      │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+![Real-Time Prompt Enhancement Demo](assets/prompt-enhancer-session.png)
 
 </div>
 
@@ -87,34 +32,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ 🟥 🟨 🟩  claude-enhancer-stats.exe                                           │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ > claude-enhancer stats --live                                               │
-│                                                                              │
-│ ╔════════════════════════════════════════════════════════════════════════════╗ │
-│ ║                        PROMPT ENHANCER DASHBOARD                         ║ │
-│ ╠════════════════════════════════════════════════════════════════════════════╣ │
-│ ║ METRIC                    │ CURRENT     │ TODAY      │ AVG        │ STATUS ║ │
-│ ╠════════════════════════════════════════════════════════════════════════════╣ │
-│ ║ Prompts Enhanced         │ 1,247       │ 342        │ 89.5/hr    │ 🟢    ║ │
-│ ║ Enhancement Success      │ 98.7%       │ 99.1%      │ 97.2%      │ 🟢    ║ │
-│ ║ Avg Enhancement Time     │ 124ms       │ 118ms      │ 132ms      │ 🟢    ║ │
-│ ║ Learning Accuracy        │ 94.2%       │ 95.8%      │ 91.7%      │ 🟡    ║ │
-│ ║ Template Matches         │ 1,198       │ 327        │ 86         │ 🟢    ║ │
-│ ║ Ultra Mode Activations   │ 23          │ 8          │ 2.1/hr     │ 🔵    ║ │
-│ ╚════════════════════════════════════════════════════════════════════════════╝ │
-│                                                                              │
-│ 📊 SYSTEM STATUS:                                                             │
-│    🔥 ACTIVE: Real-time enhancement running                                  │
-│    ⚡ OPTIMIZED: Performance tuned for your workflow                         │
-│    🧠 LEARNING: Adapting to your prompt patterns                             │
-│    🔄 UPDATING: Live metrics refreshing every 5 seconds                      │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+![Performance Monitoring Demo](assets/enhancer-analytics.png)
 
 </div>
 
@@ -122,45 +40,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ 🟥 🟨 🟩  claude-enhancer-config.exe                                         │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ > claude-enhancer config --interactive                                        │
-│                                                                              │
-│ 🎯 Interactive Configuration Wizard                                          │
-│                                                                              │
-│ ? What type of work do you primarily do?                                     │
-│    ❯ Software Development                                                   │
-│      System Architecture                                                     │
-│      Data Analysis                                                           │
-│      Research & Writing                                                      │
-│      DevOps & Infrastructure                                                 │
-│                                                                              │
-│ ? Enhancement level preference?                                              │
-│    ❯ Balanced (Recommended)                                                 │
-│      Conservative                                                            │
-│      Aggressive                                                              │
-│      Custom                                                                  │
-│                                                                              │
-│ ? Enable learning system? (y/N) › y                                          │
-│ ? Enable ultra mode for complex tasks? (y/N) › y                             │
-│ ? Set performance optimization level? (1-5) › 3                              │
-│                                                                              │
-│ [✓] VALIDATING CONFIGURATION...                                              │
-│ [✓] CONFIGURATION SAVED                                                     │
-│ [✓] LEARNING SYSTEM ENABLED                                                 │
-│ [✓] TEMPLATES OPTIMIZED FOR: Software Development                           │
-│ [✓] ULTRA MODE CONFIGURED                                                    │
-│ [✓] PERFORMANCE TUNING APPLIED                                              │
-│ [✓] READY TO ENHANCE YOUR PROMPTS                                            │
-│                                                                              │
-│ 📁 Your personalized config is now active at:                                │
-│    ~/.claude/hooks/config/user_config.json                                   │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+![Configuration Setup Demo](assets/enhancer-config.png)
 
 </div>
 
@@ -168,69 +48,15 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ 🟥 🟨 🟩  claude-ultra-enhancer.exe                                          │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ > claude "Design a distributed microservices architecture for global e-commerce" │
-│                                                                              │
-│ [⚡] COMPLEXITY DETECTED: EXTREME                                            │
-│ [🔥] ULTRA MODE ACTIVATED                                                    │
-│ [🧠] MULTI-APPROACH REASONING ENABLED                                        │
-│                                                                              │
-│ ┌─── ENHANCED PROMPT WITH ULTRA MODE ─────────────────────────────────────┐ │
-│ │                                                                          │ │
-│ │ "Design a comprehensive distributed microservices architecture           │ │
-│ │  for global e-commerce platform                                          │ │
-│ │                                                                          │ │
-│ │ 🎯 COMPLEXITY ASSESSMENT: Extreme - Requires comprehensive              │ │
-│ │ system design across multiple domains and scales                        │ │
-│ │                                                                          │ │
-│ │ 🔀 MULTIPLE APPROACHES TO CONSIDER:                                     │ │
-│ │                                                                          │ │
-│ │ 🏗️  APPROACH 1: Domain-Driven Design with Event Sourcing              │ │
-│ │    • Identify bounded contexts (Products, Orders, Users, etc.)         │ │
-│ │    • Implement event-driven communication patterns                      │ │
-│ │    • Design for eventual consistency                                   │ │
-│ │                                                                          │ │
-│ │ ☁️  APPROACH 2: Cloud-Native with Service Mesh                         │ │
-│ │    • Kubernetes orchestration with Istio service mesh                  │ │
-│ │    • Implement circuit breakers and retries                            │ │
-│ │    • Design for multi-region deployment                                │ │
-│ │                                                                          │ │
-│ │ ⚡ APPROACH 3: CQRS with Event-Driven Architecture                    │ │
-│ │    • Separate read/write models for scalability                       │ │
-│ │    • Implement event sourcing for audit trails                         │ │
-│ │    • Design for high availability and fault tolerance                  │ │
-│ │                                                                          │ │
-│ │ 🛠️  IMPLEMENTATION STRATEGY:                                           │ │
-│ │    • API Gateway: Kong or AWS API Gateway                             │ │
-│ │    • Service Discovery: Consul or Kubernetes                          │ │
-│ │    • Communication: gRPC internal, REST external                      │ │
-│ │    • Data Management: Polyglot persistence per service                │ │
-│ │    • Messaging: Apache Kafka for async communication                  │ │
-│ │    • Monitoring: Prometheus + Grafana + Jaeger                       │ │
-│ │                                                                          │ │
-│ │ ⚠️  CRITICAL CONSIDERATIONS:                                          │ │
-│ │    • Distributed transaction management                               │ │
-│ │    • Cross-service data consistency                                   │ │
-│ │    • Security between services (mTLS, OAuth)                          │ │
-│ │    • Performance optimization across service boundaries               │ │
-│ │    • Operational complexity and team coordination                     │ │
-│ │                                                                          │ │
-│ │ 🤔 SELF-CRITIQUE REQUIRED:                                            │ │
-│ │    • Assess organizational readiness for microservices                │ │
-│ │    • Evaluate operational overhead vs. benefits                       │ │
-│ │    • Consider migration strategy from existing systems                │ │
-│ │    • Plan for distributed debugging and monitoring                   │ │
-│ │                                                                          │ │
-│ └──────────────────────────────────────────────────────────────────────────┘ │
-│                                                                              │
-│ [✅] ULTRA ENHANCEMENT COMPLETE - Ready for comprehensive analysis          │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+### Ultra Mode Activation Demo
+
+![Ultra Mode Demo](assets/Whisk_07b974860f608a88dd442b4594eb4c8adr.png)
+
+### Watch Ultra Mode in Action
+
+See the complete ultra-mode enhancement process in real-time:
+
+[📹 Watch Terminal Demo](assets/ultra-mode-enhancer.mp4)
 
 </div>
 
@@ -238,57 +64,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ 🟥 🟨 🟩  claude-enhancer-insights.exe                                        │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ > claude-enhancer insights --analyze                                          │
-│                                                                              │
-│ ╔════════════════════════════════════════════════════════════════════════════╗ │
-│ ║                        🧠 LEARNING SYSTEM INSIGHTS                        ║ │
-│ ╠════════════════════════════════════════════════════════════════════════════╣ │
-│ ║                                                                          ║ │
-│ ║ 🎯 YOUR PROMPT PATTERNS:                                                 ║ │
-│ ║ ──────────────────────────────────────────────────────────────────────── ║ │
-│ ║ • Most frequent: "refactor", "architecture", "api"                      ║ │
-│ ║ • Complexity preference: Medium-High tasks                               ║ │
-│ ║ • Best enhancement time: Morning (9AM-12PM)                              ║ │
-│ ║ • Success rate with enhancements: 96.3%                                  ║ │
-│ ║ • Favorite templates: security-v3, architecture-expert, api-design       ║ │
-│ ║                                                                          ║ │
-│ ║ 📈 PERFORMANCE IMPROVEMENTS:                                             ║ │
-│ ║ ──────────────────────────────────────────────────────────────────────── ║ │
-│ ║ • 34% faster prompt processing since optimization                        ║ │
-│ ║ • 28% improvement in response quality scores                             ║ │
-│ ║ • 42% reduction in clarification requests                                ║ │
-│ ║ • 67% better template matching accuracy                                   ║ │
-│ ║                                                                          ║ │
-│ ║ 🎯 PERSONALIZED RECOMMENDATIONS:                                         ║ │
-│ ║ ──────────────────────────────────────────────────────────────────────── ║ │
-│ ║ • Use "design system" keyword for architecture tasks                     ║ │
-│ ║ • Enable Ultra Mode for complex multi-component systems                  ║ │
-│ ║ • Consider custom templates for API development                          ║ │
-│ ║ • Try "microservices" template for distributed systems                   ║ │
-│ ║                                                                          ║ │
-│ ║ 🔄 ADAPTIVE LEARNING STATUS:                                             ║ │
-│ ║ ──────────────────────────────────────────────────────────────────────── ║ │
-│ ║ • Template effectiveness: 94.2% accuracy                                 ║ │
-│ ║ • Context prediction: 91.7% accuracy                                     ║ │
-│ ║ • User preference learning: ACTIVE                                       ║ │
-│ ║ • Pattern recognition: IMPROVING                                         ║ │
-│ ║ • Optimization cycle: DAILY                                              ║ │
-│ ║                                                                          ║ │
-│ ╚════════════════════════════════════════════════════════════════════════════╝ │
-│                                                                              │
-│ 💡 TIP: Your patterns show strong system architecture focus.                 │
-│    Consider enabling "architecture-expert" template mode for                │
-│    enhanced contextual guidance.                                            │
-│                                                                              │
-│ 📊 Learning metrics updated every 24 hours. Next update: in 3h 47m         │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+![Learning System Insights Demo](assets/learning-system.png)
 
 </div>
 
