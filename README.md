@@ -44,7 +44,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 </div>
 
-### 🚀 Ultra Mode Activation
+### Ultra Mode Activation
 
 <div align="center">
 
