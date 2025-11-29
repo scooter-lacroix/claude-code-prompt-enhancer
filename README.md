@@ -10,8 +10,6 @@ The Prompt Enhancement System integrates seamlessly with Claude Code's hook arch
 
 The system detects complexity levels, identifies technical keywords, analyzes file references, and applies appropriate enhancement templates to transform basic requests into comprehensive, actionable prompts that yield better results.
 
-## Live Demos
-
 ### System Initialization
 
 <div align="center">
