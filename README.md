@@ -2,7 +2,7 @@
 
 # Claude Code Prompt Enhancement System
 
-A sophisticated hook system that intelligently enhances user prompts before they are processed by Claude, adding relevant context, examples, and structured guidance to improve response quality and consistency.
+A hook system that intelligently enhances user prompts before they are processed by Claude, adding relevant context, examples, and structured guidance to improve response quality and consistency.
 
 ## Overview
 
