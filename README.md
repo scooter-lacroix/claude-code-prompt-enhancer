@@ -48,7 +48,7 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 <div align="center">
 
-![Ultra Mode Enhancement](assets/ultra-mode-enhancer.gif)
+![Ultra Mode Enhancement](assets/api_ultra.gif)
 
 </div>
 
