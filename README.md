@@ -44,19 +44,17 @@ The system detects complexity levels, identifies technical keywords, analyzes fi
 
 </div>
 
-### Ultra Mode Activation
+### 🚀 Ultra Mode Activation
 
 <div align="center">
 
-### Ultra Mode Activation Demo
-
-![Ultra Mode Demo](assets/Whisk_07b974860f608a88dd442b4594eb4c8adr.png)
-
-### Watch Ultra Mode in Action
-
 See the complete ultra-mode enhancement process in real-time:
 
-[📹 Watch Terminal Demo](assets/ultra-mode-enhancer.mp4)
+**📹 Watch Ultra Mode Demo Videos**
+
+[▶️ Play WebM Version (Recommended - 116KB)](assets/ultra-mode-enhancer.webm) | [▶️ Play MP4 Version (644KB)](assets/ultra-mode-enhancer.mp4)
+
+*Click either link above to watch the Ultra Mode enhancement process in action.*
 
 </div>
 
